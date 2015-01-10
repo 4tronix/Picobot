@@ -39,3 +39,5 @@ Notes:
 2. The nRF24L01 header can double as an SPI breakout, but note that you will hve to pickup 5V from the programming header
 
 3. Combining the programming header and the nRF24L01 header allows you access to all the ICSP pins so you can flash the bootloader orinstall your program directly without using a bootloader. Not required for "normal" users :)
+
+4. Pin2 on the programming header (labelled 'R') is directly connected to the Reset pin on the processor
