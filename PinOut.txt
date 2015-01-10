@@ -1,0 +1,41 @@
+Picobot Pinout
+==============
+
+Picobot uses the ATMega328P-AU chip which has an extra 2 analog inputs (8 total)
+The additional 2 analog inputs (A6 and A7) do not have an associated digital I/O so cannot be used as digital inputs and you cannot set internal pull-up or pull-down resistors
+
+Digital I/O
+===========
+D0 - RX
+D1 - TX
+D2 - Left Motor A
+D3 - Left Motor B (PWM available)
+D4 - Right Motor A
+D5 - Right Motor B (PWM available)
+D6 - Rear (White) LED
+D7 - CSN (used for nRF24L01 module)
+D8 - CE (used for nRF24L01 module)
+D9 - Red control output for front RGB LEDs
+D10 - Tact button input (capacitor debounced, requires internal pullup)
+D11 - MOSI (used for nRF24L01 module and SPI)
+D12 - MISO (used for nRF24L01 module and SPI)
+D13 - SCLK (used for nrF24L01 module, SPI and D13 Blue LED)
+
+Analog Inputs
+=============
+A0 - Left LDR (requires internal pullup)
+A1 - Right LDR (requires internal pullup)
+A2 - Green control output for front RGB LEDs
+A3 - Blue control output for front RGB LEDs
+A4 - Ping output to ultrasonic sensor (also SDA pin for I2C)
+A5 - Echo input from ultrasonic sensor (also SCLK pin for I2C)
+A6 - Left line sensor input
+A7 - Right line sensor input
+
+Notes:
+======
+1. You can use the 4-pin ultrasonic header as a general purpose I2C connector if required, so adding a display or acceleromter, etc is easy
+
+2. The nRF24L01 header can double as an SPI breakout, but note that you will hve to pickup 5V from the programming header
+
+3. Combining the programming header and the nRF24L01 header allows you access to all the ICSP pins so you can flash the bootloader orinstall your program directly without using a bootloader. Not required for "normal" users :)

@@ -1,4 +1,5 @@
 Picobot Released Files
+======================
 
 All files are Licensed under Creative Commons BY-SA
 See creativecommons.org/licenses/by-sa/3.0/ for details
@@ -12,3 +13,7 @@ MotorTest - Turns the motors Forwards, Reverse, Spin Left, Spin Right, Halt in t
 Utra - Outputs the distance reading from teh Ultrasonic sensor to the Serial Monitor
 Runaway - Uses the Picobot library and ultrasonic sensor to avoid objects
 
+Picobot Schematics
+==================
+Picobot<xy>.sch is the Eagle schematic for version x.y
+Picobot<xy>.brd is the Eagle board file for version x.y
