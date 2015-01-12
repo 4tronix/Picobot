@@ -2,9 +2,9 @@
 // This code is designed for the 4tronix Picobot
 // Reads values from the 2 LDRs and the 2 Line Follower Sensors
 //
-// Purpose: Demonstrate use of the ultrasonic sensor 
+// Purpose: Demonstrate use of the analog sensors 
 //
-// This example code is in the public domain.
+// This example code is licensed under CC-BY-SA https://creativecommons.org/licenses/by-sa/3.0/
 
 int leftLDR = A0;
 int rightLDR = A1;

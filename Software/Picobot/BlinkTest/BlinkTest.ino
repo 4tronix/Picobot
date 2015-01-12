@@ -2,7 +2,7 @@
   BlinkTest
   Blinks all Picobot LEDs repeatedly.
  
-  This example code is in the public domain.
+  This example code is licensed under CC-BY-SA https://creativecommons.org/licenses/by-sa/3.0/
  */
  
 

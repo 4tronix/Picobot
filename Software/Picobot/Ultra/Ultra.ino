@@ -4,7 +4,7 @@
 //
 // Purpose: Demonstrate use of the ultrasonic sensor 
 //
-// This example code is in the public domain.
+// This example code is licensed under CC-BY-SA https://creativecommons.org/licenses/by-sa/3.0/
 
 #include <Servo.h> // need the standard Arduino servo library
 
