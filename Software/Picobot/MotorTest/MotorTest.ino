@@ -10,7 +10,7 @@
   This example code is in the public domain.
  */
 
-int L1 = 3, L2 = 2, L3 = 5, L4 =4; // Pins connected to Motor driver L298N H-Bridge module
+int L1 = 2, L2 = 3, L3 = 4, L4 =5; // Pins connected to Motor driver L298N H-Bridge module
 #define LED 13  // Blue LED pin
 
 // the setup routine runs once when you press reset:
