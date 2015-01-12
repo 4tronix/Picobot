@@ -12,6 +12,7 @@ AnalogTest - outputs analog values from light and line following sensors to Seri
 MotorTest - Turns the motors Forwards, Reverse, Spin Left, Spin Right, Halt in turn
 Utra - Outputs the distance reading from teh Ultrasonic sensor to the Serial Monitor
 Runaway - Uses the Picobot library and ultrasonic sensor to avoid objects
+LineFollower - Simple line follower script using the RGB LEDs to show direction
 
 Picobot Schematics
 ==================
