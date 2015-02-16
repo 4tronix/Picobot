@@ -6,11 +6,8 @@
 //
 // This example code is licensed under CC-BY-SA https://creativecommons.org/licenses/by-sa/3.0/
 
-#include <Servo.h> // need the standard Arduino servo library
-
-
-int trigPin = A4;   // Analog pin 0 used for the Ping Pin (Trig)
-int echoPin = A5;   // Analog pin 1 used for the Echo Pin (Echo)
+int trigPin = A4;   // Analog pin used for the Ping Pin (Trig)
+int echoPin = A5;   // Analog pin used for the Echo Pin (Echo)
 unsigned long duration, inches;
 int indec, cmdec;
 int inchconv = 147; // ratio between pulse width and inches
